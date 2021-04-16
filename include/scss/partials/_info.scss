@@ -1,0 +1,15 @@
+.info-section {
+	padding-top: 90px;
+	padding-bottom: 50px;
+	@media (min-width: 992px) {
+		padding-top: 150px;
+	}
+}
+
+.info__header {
+	@include font-size(6);
+	color: $white;
+	font-weight: 500;
+	letter-spacing: 0.18rem;
+	margin-bottom: 40px;
+}
